@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import A from './components/A';
+import B from './components/B';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
 
         <div style={{display:'flex'}}>          
            <A message={value} posts={posts} />
+           <B message={value} posts={posts} />
         </div>
 
     </div>
